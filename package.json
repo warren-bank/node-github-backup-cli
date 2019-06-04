@@ -1,0 +1,25 @@
+{
+  "name": "@warren-bank/node-github-backup-cli",
+  "version": "1.0.0",
+  "main": "",
+  "description": "An extremely lightweight command-line utility to generate a bash script to backup all git repos in a github account.",
+  "license": "GPL-2.0",
+  "bin": {
+    "gh-backup": "bin/gh-backup.js"
+  },
+  "scripts": {
+    "start": "node bin/gh-backup.js"
+  },
+  "dependencies": {
+    "@warren-bank/node-request": "^2.0.0"
+  },
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/node-github-backup-cli"
+  }
+}
