@@ -5,8 +5,10 @@ const fs        = require('fs')
 const argv_flags = {
   "--help":                                 {bool: true},
   "--version":                              {bool: true},
+  "--keep":                                 {bool: true},
 
   "--user":                                 {},
+  "--format":                               {enum: ["bzip2","gzip","xy","zip","7za","7z"]},
   "--dirpath":                              {file: "path"},
   "--filepath":                             {file: "path"}
 }
@@ -14,7 +16,9 @@ const argv_flags = {
 const argv_flag_aliases = {
   "--help":                                 ["-h"],
   "--version":                              ["-V"],
+  "--keep":                                 ["-k"],
   "--user":                                 ["-u"],
+  "--format":                               ["-f"],
   "--dirpath":                              ["-P"],
   "--filepath":                             ["-O"]
 }
@@ -84,6 +88,10 @@ if (argv_vals["--version"]) {
 if (!argv_vals["--user"]) {
   console.log('ERROR: username is required')
   process.exit(0)
+}
+
+if (!argv_vals["--format"]) {
+  argv_vals["--format"] = "bzip2"
 }
 
 if (argv_vals["--dirpath"]) {

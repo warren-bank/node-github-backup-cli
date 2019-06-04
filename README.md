@@ -59,6 +59,25 @@ options:
 "--user <username>"
     Specify the username associated with a github account.
 
+"-f"
+"--format"
+    Specify the compression format.
+    This dictates which compression tool will be used in the generated script.
+    Supported formats:
+        "bzip2"    tar -cjf directory.tar.bz2 directory
+        "gzip"     tar -czf directory.tar.gz directory
+        "xy"       tar -cJf directory.tar.zy directory
+        "zip"      zip -r directory.zip directory
+        "7za"      7za a directory.7z directory
+        "7z"       7z a directory.7z directory
+    Default format:
+        "bzip2"    tar -cjf directory.tar.bz2 directory
+
+"-k"
+"--keep"
+    Should the generated script NOT remove each cloned git repo directory
+    after it has been compressed?
+
 "-P <output_dirpath>"
 "--dirpath <output_dirpath>"
     Specify the directory path in which to output the generated scripts.
@@ -76,6 +95,7 @@ all of the following are equivalent:
 gh-backup -u 'warren-bank'
 gh-backup -u 'warren-bank' -P './'
 gh-backup -u 'warren-bank' -O './gh-backup.sh'
+gh-backup -u 'warren-bank' -f 'bzip2'
 ```
 
 - - - -

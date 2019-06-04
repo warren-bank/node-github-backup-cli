@@ -80,10 +80,38 @@ const get_script_bash = function() {
   lines.push('#!/usr/bin/env bash')
   lines.push('')
 
+  lines.push(`options=''`)
+  lines.push('')
+
   gh_repos.forEach(repo => {
     lines.push(`git clone "${repo.url}"`)
-    lines.push(`tar -cjf "${repo.name}.tar.bz2" "${repo.name}"`)
-    lines.push(`rm -rf "${repo.name}"`)
+
+    switch(argv_vals["--format"]) {
+      case "7z":
+        lines.push(`7z a "$options" "${repo.name}.7z" "${repo.name}"`)
+        break;
+      case "7za":
+        lines.push(`7za a "$options" "${repo.name}.7z" "${repo.name}"`)
+        break;
+      case "zip":
+        lines.push(`zip -r "$options" "${repo.name}.zip" "${repo.name}"`)
+        break;
+      case "xy":
+        lines.push(`tar -cJf "$options" "${repo.name}.tar.xy" "${repo.name}"`)
+        break;
+      case "gzip":
+        lines.push(`tar -czf "$options" "${repo.name}.tar.gz" "${repo.name}"`)
+        break;
+      case "bzip2":
+      default:
+        lines.push(`tar -cjf "$options" "${repo.name}.tar.bz2" "${repo.name}"`)
+        break;
+    }
+
+    if (!argv_vals["--keep"]) {
+      lines.push(`rm -rf "${repo.name}"`)
+    }
+
     lines.push('')
   })
 
