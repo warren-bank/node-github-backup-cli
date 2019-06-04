@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/node-github-backup-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "",
   "description": "An extremely lightweight command-line utility to generate a bash script to backup all git repos in a github account.",
   "license": "GPL-2.0",

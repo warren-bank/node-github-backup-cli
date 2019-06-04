@@ -80,11 +80,11 @@ options:
 
 "-P <output_dirpath>"
 "--dirpath <output_dirpath>"
-    Specify the directory path in which to output the generated scripts.
+    Specify the directory path in which to output the generated script.
 
 "-O <output_filepath>"
 "--filepath <output_filepath>"
-    Specify the file path at which to output the generated scripts.
+    Specify the file path at which to output the generated script.
 ```
 
 #### Example:
@@ -97,6 +97,17 @@ gh-backup -u 'warren-bank' -P './'
 gh-backup -u 'warren-bank' -O './gh-backup.sh'
 gh-backup -u 'warren-bank' -f 'bzip2'
 ```
+
+- - - -
+
+#### Pre-Run Script Configuration:
+
+* The generated script includes an empty variable: `options`
+* Any string assigned to this variable will be passed to the chosen compression tool
+* The following list contains links to the compression tool documentation for each supported format:
+  * [bzip2, gzip, xy](https://www.gnu.org/software/tar/manual/html_section/tar_22.html)
+  * [zip](https://linux.die.net/man/1/zip)
+  * [7za, 7z](https://sevenzip.osdn.jp/chm/cmdline/switches/method.htm#7Z)
 
 - - - -
 

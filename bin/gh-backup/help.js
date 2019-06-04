@@ -38,11 +38,11 @@ options:
 
 "-P <output_dirpath>"
 "--dirpath <output_dirpath>"
-    Specify the directory path in which to output the generated scripts.
+    Specify the directory path in which to output the generated script.
 
 "-O <output_filepath>"
 "--filepath <output_filepath>"
-    Specify the file path at which to output the generated scripts.
+    Specify the file path at which to output the generated script.
 `
 
 module.exports = help
