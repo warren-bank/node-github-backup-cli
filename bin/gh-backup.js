@@ -97,14 +97,14 @@ const get_script_bash = function() {
         lines.push(`zip -r "$options" "${repo.name}.zip" "${repo.name}"`)
         break;
       case "xy":
-        lines.push(`tar -cJf "$options" "${repo.name}.tar.xy" "${repo.name}"`)
+        lines.push(`tar -cJ "$options" -f "${repo.name}.tar.xy" "${repo.name}"`)
         break;
       case "gzip":
-        lines.push(`tar -czf "$options" "${repo.name}.tar.gz" "${repo.name}"`)
+        lines.push(`tar -cz "$options" -f "${repo.name}.tar.gz" "${repo.name}"`)
         break;
       case "bzip2":
       default:
-        lines.push(`tar -cjf "$options" "${repo.name}.tar.bz2" "${repo.name}"`)
+        lines.push(`tar -cj "$options" -f "${repo.name}.tar.bz2" "${repo.name}"`)
         break;
     }
 
