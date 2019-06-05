@@ -66,7 +66,7 @@ options:
     Supported formats:
         "bzip2"    tar -cjf directory.tar.bz2 directory
         "gzip"     tar -czf directory.tar.gz directory
-        "xy"       tar -cJf directory.tar.zy directory
+        "xz"       tar -cJf directory.tar.xz directory
         "zip"      zip -r directory.zip directory
         "7za"      7za a directory.7z directory
         "7z"       7z a directory.7z directory
@@ -105,7 +105,7 @@ gh-backup -u 'warren-bank' -f 'bzip2'
 * The generated script includes an empty variable: `options`
 * Any string assigned to this variable will be passed to the chosen compression tool
 * The following list contains links to the compression tool documentation for each supported format:
-  * [bzip2, gzip, xy](https://www.gnu.org/software/tar/manual/html_section/tar_22.html)
+  * [bzip2, gzip, xz](https://www.gnu.org/software/tar/manual/html_section/tar_22.html)
   * [zip](https://linux.die.net/man/1/zip)
   * [7za, 7z](https://sevenzip.osdn.jp/chm/cmdline/switches/method.htm#7Z)
 

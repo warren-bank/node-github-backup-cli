@@ -24,7 +24,7 @@ options:
     Supported formats:
         "bzip2"    tar -cjf directory.tar.bz2 directory
         "gzip"     tar -czf directory.tar.gz directory
-        "xy"       tar -cJf directory.tar.zy directory
+        "xz"       tar -cJf directory.tar.xz directory
         "zip"      zip -r directory.zip directory
         "7za"      7za a directory.7z directory
         "7z"       7z a directory.7z directory

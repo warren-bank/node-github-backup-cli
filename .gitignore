@@ -1,1 +1,5 @@
 node_modules/
+
+tests/workspace/package*
+tests/workspace/node_modules/
+!tests/workspace/output/

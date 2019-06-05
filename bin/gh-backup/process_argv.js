@@ -8,7 +8,7 @@ const argv_flags = {
   "--keep":                                 {bool: true},
 
   "--user":                                 {},
-  "--format":                               {enum: ["bzip2","gzip","xy","zip","7za","7z"]},
+  "--format":                               {enum: ["bzip2","gzip","xz","zip","7za","7z"]},
   "--dirpath":                              {file: "path-exists"},
   "--filepath":                             {file: "path"}
 }
