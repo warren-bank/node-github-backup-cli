@@ -9,7 +9,7 @@ const argv_flags = {
 
   "--user":                                 {},
   "--format":                               {enum: ["bzip2","gzip","xy","zip","7za","7z"]},
-  "--dirpath":                              {file: "path"},
+  "--dirpath":                              {file: "path-exists"},
   "--filepath":                             {file: "path"}
 }
 
@@ -94,18 +94,7 @@ if (!argv_vals["--format"]) {
   argv_vals["--format"] = "bzip2"
 }
 
-if (argv_vals["--dirpath"]) {
-  argv_vals["--dirpath"] = path.resolve(argv_vals["--dirpath"])
-
-  if (! fs.existsSync(argv_vals["--dirpath"])) {
-    console.log('ERROR: Output directory does not exist')
-    process.exit(0)
-  }
-}
-
 if (argv_vals["--filepath"]) {
-  argv_vals["--filepath"] = path.resolve(argv_vals["--filepath"])
-
   let output_dir = path.dirname(argv_vals["--filepath"])
 
   if (! fs.existsSync(output_dir)) {

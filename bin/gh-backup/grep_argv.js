@@ -1,4 +1,5 @@
-const fs = require('fs')
+const fs   = require('fs')
+const path = require('path')
 
 // assumes that all arguments are passed with the convention: -key value
 // where "-key" is a flag
@@ -29,23 +30,33 @@ const retrieve_flag_value = function(flag_opts, args, index, throw_error_if_valu
 
       if (flag_opts && flag_opts["file"]) {
         try {
-          val = fs.realpathSync(val, {encoding: 'utf8'})
-
           if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "path") ) {
-          }
-          else if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "module") ) {
-            val = require(val)
+            // filepath: resolve but do not check
+            val = path.resolve(val)
           }
           else {
-            val = fs.readFileSync(val, {encoding: 'utf8'})
+            // filepath: must exist
+            val = fs.realpathSync(val, {encoding: 'utf8'})
 
-            if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "json") ) {
-              val = JSON.parse(val)
+            if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "path-exists") ) {
             }
+            else if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "module") ) {
+              // import as CommonJS module
+              val = require(val)
+            }
+            else {
+              // read file contents to String
+              val = fs.readFileSync(val, {encoding: 'utf8'})
 
-            if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "lines") ) {
-              let nonwhitespace = /[^\s]/
-              val = val.split(/(?:\r?\n)+/).filter(line => nonwhitespace.test(line))
+              if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "json") ) {
+                // parse JSON string to JS data structure
+                val = JSON.parse(val)
+              }
+              else if ( (typeof flag_opts["file"] === "string") && (flag_opts["file"].toLowerCase() === "lines") ) {
+                // parse to Array of Strings, each a line of text
+                let nonwhitespace = /[^\s]/
+                val = val.split(/(?:\r?\n)+/).filter(line => nonwhitespace.test(line))
+              }
             }
           }
         }
