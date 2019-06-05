@@ -88,23 +88,23 @@ const get_script_bash = function() {
 
     switch(argv_vals["--format"]) {
       case "7z":
-        lines.push(`7z a "$options" "${repo.name}.7z" "${repo.name}"`)
+        lines.push(`7z a $options "${repo.name}.7z" "${repo.name}"`)
         break;
       case "7za":
-        lines.push(`7za a "$options" "${repo.name}.7z" "${repo.name}"`)
+        lines.push(`7za a $options "${repo.name}.7z" "${repo.name}"`)
         break;
       case "zip":
-        lines.push(`zip -r "$options" "${repo.name}.zip" "${repo.name}"`)
+        lines.push(`zip -r $options "${repo.name}.zip" "${repo.name}"`)
         break;
       case "xy":
-        lines.push(`tar -cJ "$options" -f "${repo.name}.tar.xy" "${repo.name}"`)
+        lines.push(`tar -cJ $options -f "${repo.name}.tar.xy" "${repo.name}"`)
         break;
       case "gzip":
-        lines.push(`tar -cz "$options" -f "${repo.name}.tar.gz" "${repo.name}"`)
+        lines.push(`tar -cz $options -f "${repo.name}.tar.gz" "${repo.name}"`)
         break;
       case "bzip2":
       default:
-        lines.push(`tar -cj "$options" -f "${repo.name}.tar.bz2" "${repo.name}"`)
+        lines.push(`tar -cj $options -f "${repo.name}.tar.bz2" "${repo.name}"`)
         break;
     }
 
