@@ -1,7 +1,7 @@
 const {request} = require('@warren-bank/node-request')
 const parse_url = require('url').parse
 
-const get_all_pages = function(get_page_url, process_page_data, http_req_headers={}) {
+const get_all_pages = function(get_page_url, validate_page_data, process_page_data, http_req_headers={}, debug=false) {
   return new Promise((resolve, reject) => {
     let next_page = 0
 
@@ -15,6 +15,8 @@ const get_all_pages = function(get_page_url, process_page_data, http_req_headers
         parse_url(url)
       )
 
+      if (debug) console.log(url)
+
       request(options)
       .then(process_text_success)
       .catch(process_error)
@@ -26,12 +28,20 @@ const get_all_pages = function(get_page_url, process_page_data, http_req_headers
         data = JSON.parse(response)
       }
       catch(error) {
-        reject(new Error('server response did not contain properly formatted JSON'))
+        let msg = 'server response did not contain properly formatted JSON'
+
+        if (debug) msg += `\nserver response:\n${data}`
+
+        reject(new Error(msg))
         return
       }
 
-      if (!Array.isArray(data)) {
-        reject(new Error('server response did not contain an Array of data'))
+      if (!validate_page_data(data)) {
+        let msg = 'server response did not contain the expected data structure'
+
+        if (debug) msg += `\nserver response:\n${ JSON.stringify(data, null, 2) }`
+
+        reject(new Error(msg))
         return
       }
 
@@ -46,7 +56,11 @@ const get_all_pages = function(get_page_url, process_page_data, http_req_headers
     }
 
     const process_error = function(error) {
-      reject(new Error('unable to retrieve response from server'))
+      let msg = 'unable to retrieve response from server'
+
+      if (debug) msg += `\n${error.message}`
+
+      reject(new Error(msg))
     }
 
     process_next_page()

@@ -2,6 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 workspace="${DIR}/workspace"
+LOG="${workspace]/run.log"
 
 [ -d "$workspace" ] && rm -rf "$workspace"
 mkdir "$workspace"
@@ -15,9 +16,15 @@ PATH="${workspace}/node_modules/.bin:${PATH}"
 
 mkdir 'output'
 
-gh-backup -u 'warren-bank' -f 'bzip2' -O './output/1-gh-backup.tar.bz2.sh'
-gh-backup -u 'warren-bank' -f 'gzip'  -O './output/2-gh-backup.tar.gz.sh'
-gh-backup -u 'warren-bank' -f 'xz'    -O './output/3-gh-backup.tar.xz.sh'
-gh-backup -u 'warren-bank' -f 'zip'   -O './output/4-gh-backup.zip.sh'
-gh-backup -u 'warren-bank' -f '7za'   -O './output/5-gh-backup.7z.sh'
-gh-backup -u 'warren-bank' -f '7z'    -O './output/6-gh-backup.7z.sh'
+echo '-------------------------------------------------------------------------- gzip:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -cf 'gzip' -O './output/gh-backup.tar.gz.sh'           >>"$LOG" 2>&1
+echo '---------------------------------------------------------------------------- xz:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -cf 'xz'   -O './output/gh-backup.tar.xz.sh'           >>"$LOG" 2>&1
+echo '--------------------------------------------------------------------------- zip:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -cf 'zip'  -O './output/gh-backup.zip.sh'              >>"$LOG" 2>&1
+echo '--------------------------------------------------------------------------- 7za:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -cf '7za'  -O './output/gh-backup.7za.sh'              >>"$LOG" 2>&1
+echo '---------------------------------------------------------------------------- 7z:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -cf '7z'   -O './output/gh-backup.7z.sh'               >>"$LOG" 2>&1
+echo '------------------------------------------------------------------------- bzip2:'   >>"$LOG"
+gh-backup -u 'warren-bank' -v -sjm -t "$GH_TOKEN" -ira -O './output/gh-backup.tar.bz2.sh' >>"$LOG" 2>&1

@@ -1,0 +1,1241 @@
+[
+  {
+    "name": "Android-Mock-Location",
+    "description": "Android app that mocks the GPS and Network location providers.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Mock-Location",
+    "git_url": "https://github.com/warren-bank/Android-Mock-Location.git"
+  },
+  {
+    "name": "node-github-backup-cli",
+    "description": "An extremely lightweight command-line utility to generate a bash script to backup all git repos in a github account.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-github-backup-cli",
+    "git_url": "https://github.com/warren-bank/node-github-backup-cli.git"
+  },
+  {
+    "name": "Android-WebMonkey",
+    "description": "No-frills light-weight Android web browser with support for Greasemonkey user scripts.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-WebMonkey",
+    "git_url": "https://github.com/warren-bank/Android-WebMonkey.git"
+  },
+  {
+    "name": "HLS-Proxy",
+    "description": "Node.js server to proxy HLS video streams",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/HLS-Proxy",
+    "git_url": "https://github.com/warren-bank/HLS-Proxy.git"
+  },
+  {
+    "name": "node-remap-apktool-unicode-filenames",
+    "description": "Command-line utility for remapping unicode filenames to ascii when produced by apktool.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-remap-apktool-unicode-filenames",
+    "git_url": "https://github.com/warren-bank/node-remap-apktool-unicode-filenames.git"
+  },
+  {
+    "name": "Android-ExoPlayer-AirPlay-Receiver",
+    "description": "Android app to run on a set-top box and play video URLs \"cast\" to it with a stateless HTTP API (based on AirPlay).",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver",
+    "git_url": "https://github.com/warren-bank/Android-ExoPlayer-AirPlay-Receiver.git"
+  },
+  {
+    "name": "DASH-to-HLS",
+    "description": "Node.js server to convert DASH video stream manifests to HLS",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/DASH-to-HLS",
+    "git_url": "https://github.com/warren-bank/DASH-to-HLS.git"
+  },
+  {
+    "name": "crx-US-TV-Go",
+    "description": "website user-script: removes clutter and reduces CPU load.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-US-TV-Go",
+    "git_url": "https://github.com/warren-bank/crx-US-TV-Go.git"
+  },
+  {
+    "name": "crx-YourSports-Stream",
+    "description": "website user-script: removes clutter and reduces CPU load.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-YourSports-Stream",
+    "git_url": "https://github.com/warren-bank/crx-YourSports-Stream.git"
+  },
+  {
+    "name": "Android-SMS-Automatic-Forwarding",
+    "description": "Android app that listens for incoming SMS text messages and conditionally forwards them to other numbers.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding",
+    "git_url": "https://github.com/warren-bank/Android-SMS-Automatic-Forwarding.git"
+  },
+  {
+    "name": "remove-common-pdf-watermarks",
+    "description": "Remove common PDF watermarks (with perl)",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/remove-common-pdf-watermarks",
+    "git_url": "https://github.com/warren-bank/remove-common-pdf-watermarks.git"
+  },
+  {
+    "name": "crx-miscellaneous",
+    "description": "Miscellaneous Userscripts",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-miscellaneous",
+    "git_url": "https://github.com/warren-bank/crx-miscellaneous.git"
+  },
+  {
+    "name": "crx-simple-modify-headers",
+    "description": "Extension for firefox and chrome to modify headers",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-simple-modify-headers",
+    "git_url": "https://github.com/warren-bank/crx-simple-modify-headers.git"
+  },
+  {
+    "name": "node-rtsp-relay",
+    "description": "Node.js server to relay RTSP video stream from 'producer' to 'consumer' client endpoint.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-rtsp-relay",
+    "git_url": "https://github.com/warren-bank/node-rtsp-relay.git"
+  },
+  {
+    "name": "Android-SMS-Automatic-Reply-GPS",
+    "description": "Android app that listens for incoming SMS text/data messages and conditionally sends an automatic reply containing GPS location data.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-SMS-Automatic-Reply-GPS",
+    "git_url": "https://github.com/warren-bank/Android-SMS-Automatic-Reply-GPS.git"
+  },
+  {
+    "name": "Android-NodeJS-Frontend",
+    "description": "Android app to run Javascript files from the filesystem in Node.js",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-NodeJS-Frontend",
+    "git_url": "https://github.com/warren-bank/Android-NodeJS-Frontend.git"
+  },
+  {
+    "name": "node-hls-downloader-tubitv",
+    "description": "Command-line utility for downloading an offline copy of TubiTV HLS video streams.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hls-downloader-tubitv",
+    "git_url": "https://github.com/warren-bank/node-hls-downloader-tubitv.git"
+  },
+  {
+    "name": "Android-WebCast",
+    "description": "Android app to extract video (file/stream) URLs from websites and watch them elsewhere (internal/external video player, Google Chromecast, ExoAirPlayer).",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-WebCast",
+    "git_url": "https://github.com/warren-bank/Android-WebCast.git"
+  },
+  {
+    "name": "print-apk-signature",
+    "description": "print information about the certificate used to sign an Android APK file",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/print-apk-signature",
+    "git_url": "https://github.com/warren-bank/print-apk-signature.git"
+  },
+  {
+    "name": "Android-RTSP-IPCam-Viewer",
+    "description": "Android app to view RTSP IP camera video streams.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-RTSP-IPCam-Viewer",
+    "git_url": "https://github.com/warren-bank/Android-RTSP-IPCam-Viewer.git"
+  },
+  {
+    "name": "Android-NodeJS-Simple-Server",
+    "description": "Android app to demo running a simple HTTP server using Node.js in Android",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-NodeJS-Simple-Server",
+    "git_url": "https://github.com/warren-bank/Android-NodeJS-Simple-Server.git"
+  },
+  {
+    "name": "nodejs-mobile",
+    "description": "Full-fledged Node.js on Android and iOS",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/nodejs-mobile",
+    "git_url": "https://github.com/warren-bank/nodejs-mobile.git"
+  },
+  {
+    "name": "crx-webcast-reloaded",
+    "description": "Cast web videos to Google Chromecast from any Chromium-based desktop browser.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-webcast-reloaded",
+    "git_url": "https://github.com/warren-bank/crx-webcast-reloaded.git"
+  },
+  {
+    "name": "crx-modify-content-type",
+    "description": "Chrome extension that allows manipulation of the Content-Type and Content-Disposition HTTP header fields of incoming documents.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-modify-content-type",
+    "git_url": "https://github.com/warren-bank/crx-modify-content-type.git"
+  },
+  {
+    "name": "crx-tabs-backup-restore",
+    "description": "Chrome extension to backup and restore browser sessions, consisting of all open windows and tabs.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-tabs-backup-restore",
+    "git_url": "https://github.com/warren-bank/crx-tabs-backup-restore.git"
+  },
+  {
+    "name": "react-trix-editor",
+    "description": "React component for Basecamp's Trix rich text editor",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/react-trix-editor",
+    "git_url": "https://github.com/warren-bank/react-trix-editor.git"
+  },
+  {
+    "name": "crx-webpage-eraser",
+    "description": "Chrome extension to erase selected visible elements from the current webpage",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-webpage-eraser",
+    "git_url": "https://github.com/warren-bank/crx-webpage-eraser.git"
+  },
+  {
+    "name": "crx-cookie-editor",
+    "description": "A powerful browser extension to create, edit and delete cookies",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-cookie-editor",
+    "git_url": "https://github.com/warren-bank/crx-cookie-editor.git"
+  },
+  {
+    "name": "redux-offline-docs",
+    "description": "Redux documentation in PDF, ePub and MOBI formats for offline reading.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/redux-offline-docs",
+    "git_url": "https://github.com/warren-bank/redux-offline-docs.git"
+  },
+  {
+    "name": "node-hls-downloader",
+    "description": "Command-line utility for downloading an offline copy of an HLS video stream.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hls-downloader",
+    "git_url": "https://github.com/warren-bank/node-hls-downloader.git"
+  },
+  {
+    "name": "chrome-extension-downloader",
+    "description": "Command-line shell script to download a CRX (chrome extension) for offline installation",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/chrome-extension-downloader",
+    "git_url": "https://github.com/warren-bank/chrome-extension-downloader.git"
+  },
+  {
+    "name": "smali-Google-Duo",
+    "description": "modified (unofficial) releases of Google Duo: whitelist (rather than blacklist), and auto accept inbound calls",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/smali-Google-Duo",
+    "git_url": "https://github.com/warren-bank/smali-Google-Duo.git"
+  },
+  {
+    "name": "fork-golang-expect",
+    "description": "expect for Windows Powered by GopherLua",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-golang-expect",
+    "git_url": "https://github.com/warren-bank/fork-golang-expect.git"
+  },
+  {
+    "name": "node-request-cli",
+    "description": "An extremely lightweight HTTP request client for the command-line. Supports: http, https, redirects, cookies.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-request-cli",
+    "git_url": "https://github.com/warren-bank/node-request-cli.git"
+  },
+  {
+    "name": "node-translate-subtitles",
+    "description": "Command-line utility to use the IBM Watson Language Translator service to translate subtitle text files.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-translate-subtitles",
+    "git_url": "https://github.com/warren-bank/node-translate-subtitles.git"
+  },
+  {
+    "name": "clappr-chromecast-plugin",
+    "description": "Chromecast support for clappr",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/clappr-chromecast-plugin",
+    "git_url": "https://github.com/warren-bank/clappr-chromecast-plugin.git"
+  },
+  {
+    "name": "js-browser-menu-scroller",
+    "description": "Small javascript library to perform two-way binding between vertical scrolling in a web browser and navigation menus.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/js-browser-menu-scroller",
+    "git_url": "https://github.com/warren-bank/js-browser-menu-scroller.git"
+  },
+  {
+    "name": "node-hls-downloader-crackle",
+    "description": "Command-line utility for downloading an offline copy of Crackle HLS video streams.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hls-downloader-crackle",
+    "git_url": "https://github.com/warren-bank/node-hls-downloader-crackle.git"
+  },
+  {
+    "name": "clappr-chromecast-captions-plugin",
+    "description": "Plugin for Clappr media player to enhance the official ChromecastPlugin with support for external (subtitle) text tracks.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/clappr-chromecast-captions-plugin",
+    "git_url": "https://github.com/warren-bank/clappr-chromecast-captions-plugin.git"
+  },
+  {
+    "name": "Android-Root-Script-Runner",
+    "description": "Android app that runs shell scripts as the root user on a rooted Android device.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Root-Script-Runner",
+    "git_url": "https://github.com/warren-bank/Android-Root-Script-Runner.git"
+  },
+  {
+    "name": "node-ibm-watson-language-translator",
+    "description": "Unofficial Node.js client library and CLI for a subset of the IBM Watson Language Translator service API.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-ibm-watson-language-translator",
+    "git_url": "https://github.com/warren-bank/node-ibm-watson-language-translator.git"
+  },
+  {
+    "name": "Android-PTT-Bluetooth-Speaker",
+    "description": "Client and receiver pair of Android apps. Client sends audio from microphone. Receiver plays audio from client on speaker.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-PTT-Bluetooth-Speaker",
+    "git_url": "https://github.com/warren-bank/Android-PTT-Bluetooth-Speaker.git"
+  },
+  {
+    "name": "Android-libVLC-Demo",
+    "description": "Android app to demo the libVLC library.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-libVLC-Demo",
+    "git_url": "https://github.com/warren-bank/Android-libVLC-Demo.git"
+  },
+  {
+    "name": "Android-Broadcast-Mock-SMS",
+    "description": "Android app that broadcasts a mock SMS to mimic receiving a new text/data message.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Broadcast-Mock-SMS",
+    "git_url": "https://github.com/warren-bank/Android-Broadcast-Mock-SMS.git"
+  },
+  {
+    "name": "Android-Image-Slideshow-Screensaver",
+    "description": "Android daydream/screensaver app to display images on local device as a slideshow",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver",
+    "git_url": "https://github.com/warren-bank/Android-Image-Slideshow-Screensaver.git"
+  },
+  {
+    "name": "Android-ADB-over-WiFi",
+    "description": "Android app that toggles a rooted device's Android Debug Bridge daemon (adbd) between USB and WiFi mode.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-ADB-over-WiFi",
+    "git_url": "https://github.com/warren-bank/Android-ADB-over-WiFi.git"
+  },
+  {
+    "name": "Android-RTSP-ScreenCaster",
+    "description": "Android app that serves an RTSP video stream to mirror the device's display screen.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-RTSP-ScreenCaster",
+    "git_url": "https://github.com/warren-bank/Android-RTSP-ScreenCaster.git"
+  },
+  {
+    "name": "Android-Bonjour-WebRTC",
+    "description": "Android app that allows device discovery on WLAN (w/ Bonjour) and video calls to be placed between devices on WLAN (w/ WebRTC) without any external server.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Bonjour-WebRTC",
+    "git_url": "https://github.com/warren-bank/Android-Bonjour-WebRTC.git"
+  },
+  {
+    "name": "Android-MyPlaces",
+    "description": "Android app that reads standard GPX and KML file formats as organized collections of geo bookmarks.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-MyPlaces",
+    "git_url": "https://github.com/warren-bank/Android-MyPlaces.git"
+  },
+  {
+    "name": "node-translate-android-strings",
+    "description": "Command-line utility to use the IBM Watson Language Translator service to translate Android 'strings.xml'.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-translate-android-strings",
+    "git_url": "https://github.com/warren-bank/node-translate-android-strings.git"
+  },
+  {
+    "name": "Android-Locale-Changer",
+    "description": "Android app to change the default system-wide locale.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Locale-Changer",
+    "git_url": "https://github.com/warren-bank/Android-Locale-Changer.git"
+  },
+  {
+    "name": "fork-Android-KeePassDX",
+    "description": ":iphone: KeePass implementation for android with material design and deluxe features",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-KeePassDX",
+    "git_url": "https://github.com/warren-bank/fork-Android-KeePassDX.git"
+  },
+  {
+    "name": "fork-Android-webview-gm",
+    "description": "Android library for Greasemonkey-compatible user script support",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-webview-gm",
+    "git_url": "https://github.com/warren-bank/fork-Android-webview-gm.git"
+  },
+  {
+    "name": "electron-starter-app",
+    "description": "Electron starter app",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/electron-starter-app",
+    "git_url": "https://github.com/warren-bank/electron-starter-app.git"
+  },
+  {
+    "name": "crx-Gmail-auto-expand-messages",
+    "description": "Automatically expand all Gmail messages after a thread is opened.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Gmail-auto-expand-messages",
+    "git_url": "https://github.com/warren-bank/crx-Gmail-auto-expand-messages.git"
+  },
+  {
+    "name": "node-hocr-resizer",
+    "description": "Command-line utility for resizing the coordinates in an hOCR (html-formatted ocr text) file.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hocr-resizer",
+    "git_url": "https://github.com/warren-bank/node-hocr-resizer.git"
+  },
+  {
+    "name": "fork-Android-My-Places",
+    "description": "'My Places' Android app",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-My-Places",
+    "git_url": "https://github.com/warren-bank/fork-Android-My-Places.git"
+  },
+  {
+    "name": "crx-window-navigator",
+    "description": "Modify 'window.navigator' attribute values.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-window-navigator",
+    "git_url": "https://github.com/warren-bank/crx-window-navigator.git"
+  },
+  {
+    "name": "node-mysql-proxy",
+    "description": "An extremely lightweight MySQL proxy server. SQL writes to DB are logged. Supports conditional AES symmetric key encryption of fields.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-mysql-proxy",
+    "git_url": "https://github.com/warren-bank/node-mysql-proxy.git"
+  },
+  {
+    "name": "save-website-to-pdf",
+    "description": "Command-line utility for downloading an offline copy of a website and converting all HTML pages to a single PDF document.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/save-website-to-pdf",
+    "git_url": "https://github.com/warren-bank/save-website-to-pdf.git"
+  },
+  {
+    "name": "crx-Tracfone-store",
+    "description": "Tracfone store: Hide phones for sale that require the purchase of a service plan.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Tracfone-store",
+    "git_url": "https://github.com/warren-bank/crx-Tracfone-store.git"
+  },
+  {
+    "name": "crx-Gmail-auto-close-chat-hangouts",
+    "description": "Automatically close the chat tab after Gmail is opened.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Gmail-auto-close-chat-hangouts",
+    "git_url": "https://github.com/warren-bank/crx-Gmail-auto-close-chat-hangouts.git"
+  },
+  {
+    "name": "ethereumjs-tx-sign",
+    "description": "minimal library to sign (and verify) raw Ethereum transactions",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/ethereumjs-tx-sign",
+    "git_url": "https://github.com/warren-bank/ethereumjs-tx-sign.git"
+  },
+  {
+    "name": "crx-Youtube",
+    "description": "Transfers video stream to alternate video players: WebCast-Reloaded, ExoAirPlayer.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Youtube",
+    "git_url": "https://github.com/warren-bank/crx-Youtube.git"
+  },
+  {
+    "name": "crx-CBS-News",
+    "description": "Removes clutter to improve site usability. Can transfer video stream to alternate video players: WebCast-Reloaded, ExoAirPlayer.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-CBS-News",
+    "git_url": "https://github.com/warren-bank/crx-CBS-News.git"
+  },
+  {
+    "name": "pdf-check-printer",
+    "description": "print bank checks to a PDF document",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/pdf-check-printer",
+    "git_url": "https://github.com/warren-bank/pdf-check-printer.git"
+  },
+  {
+    "name": "moz-prefbar",
+    "description": "fork of the Firefox add-on: PrefBar",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-prefbar",
+    "git_url": "https://github.com/warren-bank/moz-prefbar.git"
+  },
+  {
+    "name": "redux-filter-subscriptions-enhancer",
+    "description": "redux store enhancer: `store.subscribe(listener, filter)` -> `listener(newState, action)`",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/redux-filter-subscriptions-enhancer",
+    "git_url": "https://github.com/warren-bank/redux-filter-subscriptions-enhancer.git"
+  },
+  {
+    "name": "js-get-local-area-network-ip-address",
+    "description": "Client-side javascript function that uses WebRTC to obtain an IP address on the LAN",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/js-get-local-area-network-ip-address",
+    "git_url": "https://github.com/warren-bank/js-get-local-area-network-ip-address.git"
+  },
+  {
+    "name": "crx-Crackle",
+    "description": "Rewrite content pages on 'Crackle' website.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Crackle",
+    "git_url": "https://github.com/warren-bank/crx-Crackle.git"
+  },
+  {
+    "name": "node-hls-downloader-americastestkitchen",
+    "description": "Command-line utility for downloading an offline copy of 'Americas Test Kitchen' HLS video streams.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hls-downloader-americastestkitchen",
+    "git_url": "https://github.com/warren-bank/node-hls-downloader-americastestkitchen.git"
+  },
+  {
+    "name": "node-hls-downloader-roosterteeth",
+    "description": "Command-line utility for downloading an offline copy of Rooster Teeth HLS video streams.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-hls-downloader-roosterteeth",
+    "git_url": "https://github.com/warren-bank/node-hls-downloader-roosterteeth.git"
+  },
+  {
+    "name": "node-fcrypt-cli",
+    "description": "Command-line utility to store an input directory to an encrypted .zip file, and decrypt and extract an input encrypted .zip file to a directory.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-fcrypt-cli",
+    "git_url": "https://github.com/warren-bank/node-fcrypt-cli.git"
+  },
+  {
+    "name": "node-fcrypt",
+    "description": "Library to store an input directory to an encrypted .zip file, and decrypt and extract an input encrypted .zip file to a directory.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-fcrypt",
+    "git_url": "https://github.com/warren-bank/node-fcrypt.git"
+  },
+  {
+    "name": "crx-Ok-ru",
+    "description": "Transfer embedded video stream to player on WebCast-Reloaded external website.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Ok-ru",
+    "git_url": "https://github.com/warren-bank/crx-Ok-ru.git"
+  },
+  {
+    "name": "crx-Arconai-TV",
+    "description": "Route video stream through HLS-Proxy and transfer to player on WebCast-Reloaded external website.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Arconai-TV",
+    "git_url": "https://github.com/warren-bank/crx-Arconai-TV.git"
+  },
+  {
+    "name": "crx-StreamLive-To",
+    "description": "website user-script: removes clutter and reduces CPU load.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-StreamLive-To",
+    "git_url": "https://github.com/warren-bank/crx-StreamLive-To.git"
+  },
+  {
+    "name": "fork-googlecode-moonblink",
+    "description": "backup of Android apps written by: 'Ian Cameron Smith'",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-googlecode-moonblink",
+    "git_url": "https://github.com/warren-bank/fork-googlecode-moonblink.git"
+  },
+  {
+    "name": "crx-Tubi-TV",
+    "description": "Transfer video stream to player on WebCast-Reloaded external website.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Tubi-TV",
+    "git_url": "https://github.com/warren-bank/crx-Tubi-TV.git"
+  },
+  {
+    "name": "crx-New-York-Times",
+    "description": "Read articles on 'The New York Times' website without a paywall.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-New-York-Times",
+    "git_url": "https://github.com/warren-bank/crx-New-York-Times.git"
+  },
+  {
+    "name": "fork-electron-permaweb-desktop",
+    "description": null,
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-electron-permaweb-desktop",
+    "git_url": "https://github.com/warren-bank/fork-electron-permaweb-desktop.git"
+  },
+  {
+    "name": "playground-js-ipfs",
+    "description": "playground for js-ipfs",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/playground-js-ipfs",
+    "git_url": "https://github.com/warren-bank/playground-js-ipfs.git"
+  },
+  {
+    "name": "playground-castv2",
+    "description": "playground for castv2",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/playground-castv2",
+    "git_url": "https://github.com/warren-bank/playground-castv2.git"
+  },
+  {
+    "name": "moz-rewrite",
+    "description": "\"moz-rewrite\" is a Firefox add-on that functions as a light-weight (pseudo) rules-engine for easily modifying HTTP headers in either direction",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-rewrite",
+    "git_url": "https://github.com/warren-bank/moz-rewrite.git"
+  },
+  {
+    "name": "test-http-status-code",
+    "description": "Shell script to process a list of URLs and produce a filtered list that only contains the URLs that return an HTTP status code in the range 200-299.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/test-http-status-code",
+    "git_url": "https://github.com/warren-bank/test-http-status-code.git"
+  },
+  {
+    "name": "react-custom-hooks",
+    "description": "A growing collection of assorted React custom hooks.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/react-custom-hooks",
+    "git_url": "https://github.com/warren-bank/react-custom-hooks.git"
+  },
+  {
+    "name": "Android-AppRTCMobile",
+    "description": "An example Android application using WebRTC Native APIs",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-AppRTCMobile",
+    "git_url": "https://github.com/warren-bank/Android-AppRTCMobile.git"
+  },
+  {
+    "name": "node-fast-equal",
+    "description": "Fast equal",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-fast-equal",
+    "git_url": "https://github.com/warren-bank/node-fast-equal.git"
+  },
+  {
+    "name": "Secure-Webmail",
+    "description": "(service that layers on top of Gmail) + (custom frontend) = email encryption that is easy to use!",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Secure-Webmail",
+    "git_url": "https://github.com/warren-bank/Secure-Webmail.git"
+  },
+  {
+    "name": "fork-apollographql-fullstack-tutorial",
+    "description": "🚀 The Apollo platform tutorial app",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-apollographql-fullstack-tutorial",
+    "git_url": "https://github.com/warren-bank/fork-apollographql-fullstack-tutorial.git"
+  },
+  {
+    "name": "fork-node-mysql2",
+    "description": ":zap: fast node-mysql compatible mysql driver for node.js",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-mysql2",
+    "git_url": "https://github.com/warren-bank/fork-node-mysql2.git"
+  },
+  {
+    "name": "fork-Android-VideoExpertsGroup-RTSPPlayer",
+    "description": "RTSP player for Android / IP camera viewer",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-VideoExpertsGroup-RTSPPlayer",
+    "git_url": "https://github.com/warren-bank/fork-Android-VideoExpertsGroup-RTSPPlayer.git"
+  },
+  {
+    "name": "fork-electron-mattermost-desktop",
+    "description": "Mattermost Desktop application for Windows, Mac and Linux",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-electron-mattermost-desktop",
+    "git_url": "https://github.com/warren-bank/fork-electron-mattermost-desktop.git"
+  },
+  {
+    "name": "fork-crx-fauxbar",
+    "description": "An alternative to Chrome's Omnibox.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-crx-fauxbar",
+    "git_url": "https://github.com/warren-bank/fork-crx-fauxbar.git"
+  },
+  {
+    "name": "fork-serverless-guide",
+    "description": "Serverless Guide - An open-source definitive guide to serverless architectures.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-serverless-guide",
+    "git_url": "https://github.com/warren-bank/fork-serverless-guide.git"
+  },
+  {
+    "name": "fork-gitbook",
+    "description": "📝 Modern documentation format and toolchain using Git and Markdown",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-gitbook",
+    "git_url": "https://github.com/warren-bank/fork-gitbook.git"
+  },
+  {
+    "name": "fork-rtf.js",
+    "description": "Render RTF documents in HTML.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-rtf.js",
+    "git_url": "https://github.com/warren-bank/fork-rtf.js.git"
+  },
+  {
+    "name": "fork-babel",
+    "description": ":tropical_fish: Babel is a compiler for writing next generation JavaScript.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-babel",
+    "git_url": "https://github.com/warren-bank/fork-babel.git"
+  },
+  {
+    "name": "fork-jest",
+    "description": "🃏 Delightful JavaScript Testing.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-jest",
+    "git_url": "https://github.com/warren-bank/fork-jest.git"
+  },
+  {
+    "name": "fork-redux",
+    "description": "Predictable state container for JavaScript apps",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-redux",
+    "git_url": "https://github.com/warren-bank/fork-redux.git"
+  },
+  {
+    "name": "fork-node-ytdl",
+    "description": "Command line youtube video downloader.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-ytdl",
+    "git_url": "https://github.com/warren-bank/fork-node-ytdl.git"
+  },
+  {
+    "name": "fork-Android-Plumble",
+    "description": "A full-featured implementation of Mumble for Android devices.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-Plumble",
+    "git_url": "https://github.com/warren-bank/fork-Android-Plumble.git"
+  },
+  {
+    "name": "fork-Android-Jumble",
+    "description": "An Android service implementation of the Mumble protocol.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-Android-Jumble",
+    "git_url": "https://github.com/warren-bank/fork-Android-Jumble.git"
+  },
+  {
+    "name": "fork-node-kraken-api",
+    "description": "Node.js Client Library for the Kraken (kraken.com) API",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-kraken-api",
+    "git_url": "https://github.com/warren-bank/fork-node-kraken-api.git"
+  },
+  {
+    "name": "fork-node-sortedlist",
+    "description": "CommonJS module: sorted list that uses a binary search algorithm for search and insertion",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-sortedlist",
+    "git_url": "https://github.com/warren-bank/fork-node-sortedlist.git"
+  },
+  {
+    "name": "fork-node-chromecast-js",
+    "description": "Chromecast Node.js module",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-chromecast-js",
+    "git_url": "https://github.com/warren-bank/fork-node-chromecast-js.git"
+  },
+  {
+    "name": "fork-ng2-jsx",
+    "description": "Using JSX syntax in Angular2 templates.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-ng2-jsx",
+    "git_url": "https://github.com/warren-bank/fork-ng2-jsx.git"
+  },
+  {
+    "name": "fork-moz-modifyheaders-response",
+    "description": "Same UI as the original/official addon, but modifies RESPONSE headers.. rather than REQUEST. The 2 addons can run side-by-side.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-moz-modifyheaders-response",
+    "git_url": "https://github.com/warren-bank/fork-moz-modifyheaders-response.git"
+  },
+  {
+    "name": "fork-jqueryplugin-Smooth-Div-Scroll",
+    "description": "A jQuery plugin for smooth scrolling.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-jqueryplugin-Smooth-Div-Scroll",
+    "git_url": "https://github.com/warren-bank/fork-jqueryplugin-Smooth-Div-Scroll.git"
+  },
+  {
+    "name": "fork-node-capsela",
+    "description": "A high-level, promises-based web framework for Node with an emphasis on testability",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fork-node-capsela",
+    "git_url": "https://github.com/warren-bank/fork-node-capsela.git"
+  },
+  {
+    "name": "node-dns-sd-cli",
+    "description": "Bonjour (DNS-SD) discovery/monitor command line tool.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-dns-sd-cli",
+    "git_url": "https://github.com/warren-bank/node-dns-sd-cli.git"
+  },
+  {
+    "name": "map-geo-data",
+    "description": "Client-side tool to visualize geo-data files (GPX and KML) by mapping all points/lines/routes on OpenStreetMap.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/map-geo-data",
+    "git_url": "https://github.com/warren-bank/map-geo-data.git"
+  },
+  {
+    "name": "Android-Broadcast-SMS_SENT",
+    "description": "Android long-running Service that observes outbound SMS messages and broadcasts them for other apps to consume.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-Broadcast-SMS_SENT",
+    "git_url": "https://github.com/warren-bank/Android-Broadcast-SMS_SENT.git"
+  },
+  {
+    "name": "workplace",
+    "description": null,
+    "private": false,
+    "www_url": "https://github.com/warren-bank/workplace",
+    "git_url": "https://github.com/warren-bank/workplace.git"
+  },
+  {
+    "name": "webcam-loopback",
+    "description": "Client-side tool to display the video stream from a local webcam.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/webcam-loopback",
+    "git_url": "https://github.com/warren-bank/webcam-loopback.git"
+  },
+  {
+    "name": "crx-Google-Drive-HTML-Document-Viewer",
+    "description": "Chrome extension that enables opening HTML documents saved on \"Google Drive\" in a new browser tab.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Google-Drive-HTML-Document-Viewer",
+    "git_url": "https://github.com/warren-bank/crx-Google-Drive-HTML-Document-Viewer.git"
+  },
+  {
+    "name": "node-process-argv",
+    "description": "An extremely lightweight node.js library to process command-line arguments",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-process-argv",
+    "git_url": "https://github.com/warren-bank/node-process-argv.git"
+  },
+  {
+    "name": "crx-lineageos-stats-model-sort",
+    "description": "Chrome extension for \"LineageOS Statistics\" website to automatically resort release versions of hardware models by date of release",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-lineageos-stats-model-sort",
+    "git_url": "https://github.com/warren-bank/crx-lineageos-stats-model-sort.git"
+  },
+  {
+    "name": "set-default-browser",
+    "description": "Command-line shell script for Windows to set registry values that configure the default web browser.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/set-default-browser",
+    "git_url": "https://github.com/warren-bank/set-default-browser.git"
+  },
+  {
+    "name": "crx-googlesource-raw-format",
+    "description": "Chrome extension for \"GoogleSource\" website to enable downloading files from repos in raw format",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-googlesource-raw-format",
+    "git_url": "https://github.com/warren-bank/crx-googlesource-raw-format.git"
+  },
+  {
+    "name": "print-apk-minsdk",
+    "description": "Command-line shell script to print the \"minSdkVersion\" of an Android APK (Application Package Kit) file.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/print-apk-minsdk",
+    "git_url": "https://github.com/warren-bank/print-apk-minsdk.git"
+  },
+  {
+    "name": "crx-airbnb-pricesort",
+    "description": "Chrome extension for Airbnb website to enable sorting search results for \"stays\" by final price",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-airbnb-pricesort",
+    "git_url": "https://github.com/warren-bank/crx-airbnb-pricesort.git"
+  },
+  {
+    "name": "subtitle-resync",
+    "description": "Offline client-side tool to shift the subtitles in an .srt file by a fixed time offset",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/subtitle-resync",
+    "git_url": "https://github.com/warren-bank/subtitle-resync.git"
+  },
+  {
+    "name": "node-ttml2srt-cli",
+    "description": "An extremely lightweight command-line utility to convert a subtitle file from .ttml to .srt format",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-ttml2srt-cli",
+    "git_url": "https://github.com/warren-bank/node-ttml2srt-cli.git"
+  },
+  {
+    "name": "Android-CLI-Feedback",
+    "description": "Android app that can be started from the command line to either show a graphical message, or play an audio alert.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-CLI-Feedback",
+    "git_url": "https://github.com/warren-bank/Android-CLI-Feedback.git"
+  },
+  {
+    "name": "Android-FlexboxLayout-demos",
+    "description": "Android FlexboxLayout demos",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-FlexboxLayout-demos",
+    "git_url": "https://github.com/warren-bank/Android-FlexboxLayout-demos.git"
+  },
+  {
+    "name": "Android-ExoPlayer-demos",
+    "description": "Android ExoPlayer demos",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-ExoPlayer-demos",
+    "git_url": "https://github.com/warren-bank/Android-ExoPlayer-demos.git"
+  },
+  {
+    "name": "Android-libraries",
+    "description": "curated collection of (mostly) 3rd-party open-source Android libraries",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/Android-libraries",
+    "git_url": "https://github.com/warren-bank/Android-libraries.git"
+  },
+  {
+    "name": "node-google-maps-places-import-tool",
+    "description": "Command-line tool to import 'places' into Google Maps. Supports: geoJSON, KML, GPX.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-google-maps-places-import-tool",
+    "git_url": "https://github.com/warren-bank/node-google-maps-places-import-tool.git"
+  },
+  {
+    "name": "node-github-downloader-cli",
+    "description": "Command-line utility to recursively download a directory from a repo on GitHub without needing to clone the entire project.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-github-downloader-cli",
+    "git_url": "https://github.com/warren-bank/node-github-downloader-cli.git"
+  },
+  {
+    "name": "crx-123TV",
+    "description": "website user-script: removes clutter and reduces CPU load.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-123TV",
+    "git_url": "https://github.com/warren-bank/crx-123TV.git"
+  },
+  {
+    "name": "npm-global",
+    "description": "Windows CMD script to globally install `npm` packages into separate directories under a common base path.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/npm-global",
+    "git_url": "https://github.com/warren-bank/npm-global.git"
+  },
+  {
+    "name": "ethereumjs-tx-unsign",
+    "description": "minimal library to decode a signed raw Ethereum transaction",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/ethereumjs-tx-unsign",
+    "git_url": "https://github.com/warren-bank/ethereumjs-tx-unsign.git"
+  },
+  {
+    "name": "expo-docs-ebook",
+    "description": "Scripts to download and convert the official 'Expo SDK Documentation' into ebook formats.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/expo-docs-ebook",
+    "git_url": "https://github.com/warren-bank/expo-docs-ebook.git"
+  },
+  {
+    "name": "node-request",
+    "description": "An extremely lightweight HTTP request client. Supports: http, https, redirects, cookies. Returns: Promise.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-request",
+    "git_url": "https://github.com/warren-bank/node-request.git"
+  },
+  {
+    "name": "crx-navigator-platform",
+    "description": "Chromium browser extension that enables the user to configure: `navigator.platform`",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-navigator-platform",
+    "git_url": "https://github.com/warren-bank/crx-navigator-platform.git"
+  },
+  {
+    "name": "crx-cors-lite",
+    "description": "Add CORS response header to URLs matching a configurable regex pattern.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-cors-lite",
+    "git_url": "https://github.com/warren-bank/crx-cors-lite.git"
+  },
+  {
+    "name": "node-denodeify",
+    "description": "wrap Function with Proxy, proxied call returns Promise",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-denodeify",
+    "git_url": "https://github.com/warren-bank/node-denodeify.git"
+  },
+  {
+    "name": "remove-it-ebooks-pdf-watermark",
+    "description": "(DEPRECATED) remove \"www.it-ebooks.info\" watermark from pdf files (with perl)",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/remove-it-ebooks-pdf-watermark",
+    "git_url": "https://github.com/warren-bank/remove-it-ebooks-pdf-watermark.git"
+  },
+  {
+    "name": "crx-FirstOne-TV",
+    "description": "website user-script: removes clutter and reduces CPU load.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-FirstOne-TV",
+    "git_url": "https://github.com/warren-bank/crx-FirstOne-TV.git"
+  },
+  {
+    "name": "chrome-add-password",
+    "description": "Silly workaround to make it easier to manually add web site passwords into Chrome's password manager",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/chrome-add-password",
+    "git_url": "https://github.com/warren-bank/chrome-add-password.git"
+  },
+  {
+    "name": "wget-regex",
+    "description": "Fork of wget v1.11.4 that adds the ability to set regex filters to conditionally include or exclude files when downloading a website recursively",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/wget-regex",
+    "git_url": "https://github.com/warren-bank/wget-regex.git"
+  },
+  {
+    "name": "electron-portable-paths",
+    "description": "Cross-platform helper functions to perform Electron boilerplate to configure 'special' directory paths relative to the executable",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/electron-portable-paths",
+    "git_url": "https://github.com/warren-bank/electron-portable-paths.git"
+  },
+  {
+    "name": "node-sleep",
+    "description": "A configurable setTimeout().. nothing more. For use in npm scripts.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-sleep",
+    "git_url": "https://github.com/warren-bank/node-sleep.git"
+  },
+  {
+    "name": "testing-readme-before-commit",
+    "description": "(TEST) Officer Barbrady says: \"Move along, people. Nothing to see here.\"",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/testing-readme-before-commit",
+    "git_url": "https://github.com/warren-bank/testing-readme-before-commit.git"
+  },
+  {
+    "name": "moz-harviewer",
+    "description": "\"HTTP Archive (.HAR file format) Viewer\" is a Firefox add-on that displays HTTP Archive data in .HAR format",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-harviewer",
+    "git_url": "https://github.com/warren-bank/moz-harviewer.git"
+  },
+  {
+    "name": "redux-compose-reducers",
+    "description": "chains together a series of reducer functions through functional composition",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/redux-compose-reducers",
+    "git_url": "https://github.com/warren-bank/redux-compose-reducers.git"
+  },
+  {
+    "name": "crx-Google-Apps-Script-remove-warning",
+    "description": "Remove warning: \"This application was created by another user, not by Google.\"",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-Google-Apps-Script-remove-warning",
+    "git_url": "https://github.com/warren-bank/crx-Google-Apps-Script-remove-warning.git"
+  },
+  {
+    "name": "crx-header",
+    "description": "Prints information contained in the header of Chromium extension CRX files.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-header",
+    "git_url": "https://github.com/warren-bank/crx-header.git"
+  },
+  {
+    "name": "gyp_msvs_version_2012e",
+    "description": "minimal stand-alone portable compiler (Visual C++ and MSBuild from Visual Studio 2012 Express) for use with gyp (and node-gyp)",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/gyp_msvs_version_2012e",
+    "git_url": "https://github.com/warren-bank/gyp_msvs_version_2012e.git"
+  },
+  {
+    "name": "crx-faux-searchbar",
+    "description": "A tool to easily describe and query custom search engines.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-faux-searchbar",
+    "git_url": "https://github.com/warren-bank/crx-faux-searchbar.git"
+  },
+  {
+    "name": "crx-pbs-passport",
+    "description": "Chromium browser extension that enables videos on PBS website to play without a PBS Passport.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/crx-pbs-passport",
+    "git_url": "https://github.com/warren-bank/crx-pbs-passport.git"
+  },
+  {
+    "name": "chrome-extension-to-zip-archive-converter",
+    "description": "command-line tool to convert a CRX (chrome extension) to a ZIP archive",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/chrome-extension-to-zip-archive-converter",
+    "git_url": "https://github.com/warren-bank/chrome-extension-to-zip-archive-converter.git"
+  },
+  {
+    "name": "moz-json-data-view",
+    "description": "\"JSON-DataView\" is a Firefox add-on that displays JSON data in a collapsible tree structure with syntax highlights.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-json-data-view",
+    "git_url": "https://github.com/warren-bank/moz-json-data-view.git"
+  },
+  {
+    "name": "node-shapeshift-api",
+    "description": "Node.js Client Library for the ShapeShift (shapeshift.io) API",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-shapeshift-api",
+    "git_url": "https://github.com/warren-bank/node-shapeshift-api.git"
+  },
+  {
+    "name": "immutable-jsonpath",
+    "description": "jsonpath enhancement: extends class prototype with immutable assignment of value to pathExpression",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/immutable-jsonpath",
+    "git_url": "https://github.com/warren-bank/immutable-jsonpath.git"
+  },
+  {
+    "name": "dapp-console",
+    "description": "Command-line REPL javascript console. 'Web3.js' provides access to an Ethereum blockchain. Compiled contracts are represented as objects. Each deployed contract (with available 'dapp-deploy' metadata) is associated with its on-chain address.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/dapp-console",
+    "git_url": "https://github.com/warren-bank/dapp-console.git"
+  },
+  {
+    "name": "dapp-deploy",
+    "description": "command-line tool to deploy Ethereum contracts to a blockchain",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/dapp-deploy",
+    "git_url": "https://github.com/warren-bank/dapp-deploy.git"
+  },
+  {
+    "name": "json-zip-code-distance-database",
+    "description": "JSON and MySQL datasets to relate a zip code to a sorted list of other nearby zip codes, ordered by increasing distance",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/json-zip-code-distance-database",
+    "git_url": "https://github.com/warren-bank/json-zip-code-distance-database.git"
+  },
+  {
+    "name": "root-project-directory",
+    "description": "This is a tiny library to help when importing CommonJS modules with paths relative to the root of the project directory.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/root-project-directory",
+    "git_url": "https://github.com/warren-bank/root-project-directory.git"
+  },
+  {
+    "name": "react-redux-bindings",
+    "description": "Compare strategies for binding the Redux store with a React component tree",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/react-redux-bindings",
+    "git_url": "https://github.com/warren-bank/react-redux-bindings.git"
+  },
+  {
+    "name": "kodi-PlutoTV",
+    "description": "Fork of PlutoTV addon for Kodi. Adds support for v16.x Jarvis.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/kodi-PlutoTV",
+    "git_url": "https://github.com/warren-bank/kodi-PlutoTV.git"
+  },
+  {
+    "name": "node-poloniex-api",
+    "description": "Node.js Client Library for the Poloniex (poloniex.com) API",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/node-poloniex-api",
+    "git_url": "https://github.com/warren-bank/node-poloniex-api.git"
+  },
+  {
+    "name": "fdroid-search-server",
+    "description": "Node.js Express server to perform Lunr search using index built from F-Droid.org",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fdroid-search-server",
+    "git_url": "https://github.com/warren-bank/fdroid-search-server.git"
+  },
+  {
+    "name": "fdroid-search",
+    "description": "search utility for f-droid.org",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fdroid-search",
+    "git_url": "https://github.com/warren-bank/fdroid-search.git"
+  },
+  {
+    "name": "atom-tree-view-nodnd",
+    "description": "improvements to the \"tree-view\" package for Atom: bash script to download and patch, adding options to either confirm drag-and-drop actions or disable them entirely",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/atom-tree-view-nodnd",
+    "git_url": "https://github.com/warren-bank/atom-tree-view-nodnd.git"
+  },
+  {
+    "name": "ES2015-wishlist",
+    "description": null,
+    "private": false,
+    "www_url": "https://github.com/warren-bank/ES2015-wishlist",
+    "git_url": "https://github.com/warren-bank/ES2015-wishlist.git"
+  },
+  {
+    "name": "dapp-frontend",
+    "description": "command-line tool to initialize a Dapp frontend with a complete development toolchain",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/dapp-frontend",
+    "git_url": "https://github.com/warren-bank/dapp-frontend.git"
+  },
+  {
+    "name": "job-applicant-coding-exercises",
+    "description": null,
+    "private": false,
+    "www_url": "https://github.com/warren-bank/job-applicant-coding-exercises",
+    "git_url": "https://github.com/warren-bank/job-applicant-coding-exercises.git"
+  },
+  {
+    "name": "jquery-table-multi-row-selectable-drag-drop",
+    "description": "jQuery plugin that can be used to enhance HTML `table` elements with `selectable` and `draggable` rows.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/jquery-table-multi-row-selectable-drag-drop",
+    "git_url": "https://github.com/warren-bank/jquery-table-multi-row-selectable-drag-drop.git"
+  },
+  {
+    "name": "moz-bugzilla-sandbox-error",
+    "description": "(DEPRECATED) Firefox add-on that illustrates an apparent bug in the current implementation of the Mozilla sandbox",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-bugzilla-sandbox-error",
+    "git_url": "https://github.com/warren-bank/moz-bugzilla-sandbox-error.git"
+  },
+  {
+    "name": "moz-rewrite-amo",
+    "description": "(DEPRECATED) \"Rewrite HTTP Headers\" is a Firefox add-on that functions as a light-weight (pseudo) rules-engine for easily modifying HTTP headers in either direction",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-rewrite-amo",
+    "git_url": "https://github.com/warren-bank/moz-rewrite-amo.git"
+  },
+  {
+    "name": "CreateDOM",
+    "description": "$C() - Create DOM Stuctures Easily",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/CreateDOM",
+    "git_url": "https://github.com/warren-bank/CreateDOM.git"
+  },
+  {
+    "name": "fun-with_perl_http-proxy",
+    "description": "random examples for using perl HTTP:Proxy to filter/rewrite content as it passes through (in either direction)",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/fun-with_perl_http-proxy",
+    "git_url": "https://github.com/warren-bank/fun-with_perl_http-proxy.git"
+  },
+  {
+    "name": "jquery-area-onhover",
+    "description": "\"jquery.area_onhover.js\" is a jQuery plugin that creates absolutely positioned anchor elements from image map areas",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/jquery-area-onhover",
+    "git_url": "https://github.com/warren-bank/jquery-area-onhover.git"
+  },
+  {
+    "name": "moz-gfm-markdown-viewer",
+    "description": "\"GitHub Flavored Markdown (GFM) Viewer\" is a Firefox add-on that dynamically renders pages written in raw markdown (.md) into HTML. Supports the variation of markdown syntax used on GitHub.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-gfm-markdown-viewer",
+    "git_url": "https://github.com/warren-bank/moz-gfm-markdown-viewer.git"
+  },
+  {
+    "name": "moz-coffee-brew",
+    "description": "\"CoffeeBrew\" is a Firefox add-on that displays syntax-highlighted JavaScript source code, after performing CoffeeScript -to- JavaScript transcompilation.",
+    "private": false,
+    "www_url": "https://github.com/warren-bank/moz-coffee-brew",
+    "git_url": "https://github.com/warren-bank/moz-coffee-brew.git"
+  }
+]
