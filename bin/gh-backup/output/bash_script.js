@@ -55,8 +55,6 @@ const save_bash_script = function(argv_vals, data) {
 
   if (data && (typeof data === 'string')) {
     fs.writeFileSync(argv_vals["--filepath"], data)
-
-    console.log('success: bash script created')
   }
 }
 
