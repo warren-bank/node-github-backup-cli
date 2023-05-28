@@ -257,7 +257,10 @@ options:
 
 #### Requirements:
 
-* Node version: v6.4.0 (and higher)
+* Node.js version: v8.6.0 (and higher)
+  - transitive [dependency](https://github.com/warren-bank/node-github-backup-cli/blob/master/package.json#L14-L15) requirements:
+    * v8.06.00+: [`@warren-bank/node-process-argv`](https://github.com/warren-bank/node-process-argv#requirements)
+    * v8.06.00+: [`@warren-bank/node-request`](https://github.com/warren-bank/node-request#requirements)
 
 #### Legal:
 
